@@ -3,7 +3,7 @@
 ## Friis Transmission Equation
 
 ```math
-P_r = P_t + G_t + G_r + G_LNA - L_fs - L_cable - L_misc
+P_r = P_t + G_t + G_r + G_{LNA} - L_{fs} - L_{cable} - L_{misc}
 ```
 
 ## Parameter Values
