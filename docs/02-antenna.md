@@ -1,8 +1,8 @@
-**Coaxial Collinear (CoCo) Antenna — 1090 MHz Theory**
+## Coaxial Collinear (CoCo) Antenna — 1090 MHz Theory
 
 the CoCo antenna consists of aseperate half wave coax sections that alternate shield and center connections. The phase reverse that is occurs at each section's junction cases radaited ields to add in-phase, producing an omnidirectional pattern with gain on the horizon.
 
-**Section Length Calculation**
+## Section Length Calculation
 
 The current RG-6 coax on order is assumed to have a VF of 0.82 but will need to be measured when aquired.
 
