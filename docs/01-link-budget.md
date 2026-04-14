@@ -2,7 +2,7 @@
 
 ## Friis Transmission Equation
 
-```
+```math
 P_r = P_t + G_t + G_r + G_LNA - L_fs - L_cable - L_misc
 ```
 
@@ -20,7 +20,7 @@ P_r = P_t + G_t + G_r + G_LNA - L_fs - L_cable - L_misc
 
 ## Free-Space Path Loss
 
-```
+```math
 FSPL(dB) = 20·log₁₀(d_km) + 20·log₁₀(f_MHz) + 32.44
          = 20·log₁₀(250) + 20·log₁₀(1090) + 32.44
          = 47.96 + 60.75 + 32.44
@@ -30,12 +30,12 @@ FSPL(dB) = 20·log₁₀(d_km) + 20·log₁₀(f_MHz) + 32.44
 ## Received Power
 
 **Without LNA:**
-```
+```math
 P_r = 51 + 0 + 5 − 141.2 − 2.0 − 1.5 = −88.7 dBm
 ```
 
 **With Lana (+20 dB, mounted at antenna feedpoint):**
-```
+```math
 P_r = 51 + 0 + 5 + 20 − 141.2 − 2.0 − 1.5 = −68.7 dBm
 ```
 
