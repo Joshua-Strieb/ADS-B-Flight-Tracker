@@ -21,8 +21,8 @@ P_r = P_t + G_t + G_r + G_{LNA} - L_{fs} - L_{cable} - L_{misc}
 ## Free-Space Path Loss
 
 ```math
-FSPL(dB) = 20·log{10}(d_km) + 20·log{10}(f_{MHz}) + 32.44
-         = 20·log{10}(250) + 20·log{10}(1090) + 32.44
+FSPL(dB) = 20·log_{10}(d_km) + 20·log_{10}(f_{MHz}) + 32.44
+         = 20·log_{10}(250) + 20·log_{10}(1090) + 32.44
          = 47.96 + 60.75 + 32.44
          = 141.2 dB
 ```
