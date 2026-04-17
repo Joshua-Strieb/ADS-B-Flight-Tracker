@@ -3,7 +3,7 @@
 ## Friis Noise Formula
 
 ```math
-F_{total} = F_1 + (F_2 − 1)/G_1 + (F_3 − 1)/(G_1·G@) + …
+F_{total} = F_1 + (F_2 − 1)/G_1 + (F_3 − 1)/(G_1·G_2) + …
 ```
 
 ## Scenario A — No LNA
