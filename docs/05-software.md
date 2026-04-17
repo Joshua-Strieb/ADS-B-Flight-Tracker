@@ -12,7 +12,7 @@ In Raspberry Pi Imager:
 
 Configure in Raspberry Pi Imager before writing:
 - Hostname: `adsb`
-- Username: `pi`, password: your choice
+- Username: your choice, password: your choice
 - WiFi: your SSID, password, country IE
 - Enable SSH with password authentication
 
