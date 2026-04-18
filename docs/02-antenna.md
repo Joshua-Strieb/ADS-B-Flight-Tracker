@@ -7,22 +7,32 @@ the CoCo antenna consists of aseperate half wave coax sections that alternate sh
 The current RG-6 coax on order is assumed to have a VF of 0.82 but will need to be measured when aquired.
 
 ```math
-\frac{λ}{2} = \frac{c}{2 × f × VF}
+\frac{λ}{2} = \frac{c × VF}{2 × f}
 ```
 ```math
-\frac{λ}{2} = \frac{300,000,000}{2 × 1,090,000,000 × 0.82}
+\frac{λ}{2} = \frac{300,000,000 × 0.82}{2 × 1,090,000,000}
 ```
 ```math
-    = \frac{300,000,000}{1,787,600,000}
-```
-```math
-    = 0.16783 m
-```
-```math
-    = 168 mm
+    = 112.8 mm → 113 mm
 ```
 
-With eight segments of 168mm this should give an approximate gain of 5dBi. The following material was used to construct the antenna in full:
+## Velocity Factor Verification
+
+We measured the VF of our Smedz RG-6 satellite cable using a NanoVNA shorted-stub test on a 1 m section:
+
+1. Cut 1 m of cable
+2. Soldered center conductor to shield at one end (short circuit)
+3. Connected other end to NanoVNA via F connector + F-to-SMA adapter
+4. Swept 50–300 MHz
+5. First S11 dip appeared at **122.5 MHz**
+
+```
+VF = \frac{2 × length × f_dip}{c}
+   = \fra{2 × 1.0 × 122,500,000}{300,000,000}
+   = 0.817
+```
+
+With eight segments of 113mm this should give an approximate gain of 5dBi. The following material was used to construct the antenna in full:
 
 ## Materials
 - RG-6 coaxial cable
