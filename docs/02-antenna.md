@@ -18,10 +18,10 @@ The current RG-6 coax on order is assumed to have a VF of 0.82 but will need to 
 
 ## Velocity Factor Verification
 
-We measured the VF of our Smedz RG-6 satellite cable using a NanoVNA shorted-stub test on a 1 m section:
+The VF of the Smedz RG-6 satellite cable was measured using a NanoVNA shorted-stub test on a 1 m section:
 
 1. Cut 1 m of cable
-2. Soldered center conductor to shield at one end (short circuit)
+2. Soldered center conductor to shield at one end
 3. Connected other end to NanoVNA via F connector + F-to-SMA adapter
 4. Swept 50–300 MHz
 5. First S11 dip appeared at **122.5 MHz**
