@@ -4,48 +4,47 @@
 
 ## Configuration A — Baseline - No LNA, Ground Level
 
-**Date:** 2026-04-16 | **Duration:** 24h | **Gain:** XX.X dB | **Weather:** Clear
+**Date:** 2026-04-16 | **Duration:** 24h | **Weather:** Clear
 
 | Metric | Value |
 |--------|-------|
-| Avg aircraft tracked | |
-| Peak aircraft tracked | |
-| Max range (NM) | |
-| Avg messages/sec | |
-| Mean signal (dBFS) | |
+| Avg aircraft tracked | 5 |
+| Peak aircraft tracked | 19 |
+| Max range (NM) | 107.7 |
+| Avg messages/sec | 8.1 |
+| Mean signal (dBFS) | -23.9 |
 
 ## Configuration B — With Filtered LNA, Ground Level
 
-**Date:** 2026-04-17 | **Duration:** 24h | **Gain:** XX.X dB | **Weather:** Partial Rain
+**Date:** 2026-04-17 | **Duration:** 24h | **Weather:** Partial Rain
 
 | Metric | Value |
 |--------|-------|
-| Avg aircraft tracked | |
-| Peak aircraft tracked | |
-| Max range (NM) | |
-| Avg messages/sec | |
-| Mean signal (dBFS) | |
+| Avg aircraft tracked | 8 |
+| Peak aircraft tracked | 23 |
+| Max range (NM) | 141.3 |
+| Avg messages/sec | 8.3 |
+| Mean signal (dBFS) | -21.0 |
 
 ## Configuration C — With Filtered LNA, Elevated Antenna
 
-**Date:** YYYY-MM-DD | **Duration:** 24h | **Gain:** XX.X dB | **Antenna height:** Xm AGL | **Weather:**
+**Date:** 2026-04-24 | **Duration:** 24h | **Antenna height:** 3m AGL | **Weather:** Clear
 
 | Metric | Value |
 |--------|-------|
-| Avg aircraft tracked | |
-| Peak aircraft tracked | |
-| Max range (NM) | |
-| Avg messages/sec | |
-| Mean signal (dBFS) | |
+| Avg aircraft tracked | 17 |
+| Peak aircraft tracked | 47 |
+| Max range (NM) | 195.0 |
+| Avg messages/sec | 8.5 |
+| Mean signal (dBFS) | -20.6 |
 
 ## Comparison
 
 | Metric | A (Baseline) | B (+ LNA) | C (+ Elevated) |
 |--------|--------------|-----------|-----------------|
-| Avg aircraft | | | |
-| Max range (NM) | | | |
-| Mean signal (dBFS) | | | |
-| Improvement vs A | — | | |
+| Avg aircraft | 5 | 8 | 17 |
+| Max range (NM) | 107.7 | 141.3 | 195.0 |
+| Mean signal (dBFS) | -23.9 | -21.0 | -20.6 |
 
 ## NanoVNA Measurements
 
@@ -60,7 +59,5 @@
 
 | Parameter | Predicted | Measured | Notes |
 |-----------|-----------|----------|-------|
-| System NF (no LNA) | 8.0 dB | | |
-| System NF (with LNA) | 1.55 dB | | Inferred from signal improvement |
-| Max range (with LNA) | ~200+ NM | | |
+| Max range (with LNA) | ~200+ NM | 195.0 | Inital prediction included a tighter band filter |
 
