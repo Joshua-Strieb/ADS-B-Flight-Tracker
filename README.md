@@ -10,7 +10,7 @@ A 1090 MHz ADS-B receiver built from scratch — homemade coaxial collinear ante
 | System noise temp | ~1540 K | ~100 K | **~15× lower** |
 | Typical max range | ~100 NM | ~150+ NM | **~40%** |
 
-> **Note:** These are best-case numbers assuming no out-of-band overload. Since the Lana has no bandpass filter, actual performance in urban/suburban areas may be lower. See [noise budget](docs/03-noise-budget.md) and [LNA notes](docs/04-lna-notes.md).
+> **Note:** These are best-case numbers assuming no out-of-band overload. Since the Lana has no bandpass filter, actual performance in urban/suburban areas may be lower. See [noise budget](docs/03-noise-budget.md) and [LNA notes](docs/04-LNA-notes.md).
 
 ## Repository Structure
 
