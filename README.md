@@ -2,13 +2,6 @@
 
 A 1090 MHz ADS-B receiver built from scratch — homemade coaxial collinear antenna, broadband LNA, Raspberry Pi software stack, and live map display — designed as a second-year electrical engineering portfolio project.
 
-<!-- TODO: Add a hero photo of your completed station here -->
-<!-- ![Station Photo](images/station-overview.jpg) -->
-
-## System Block Diagram
-
-![System Block Diagram](images/system-block-diagram.svg)
-
 ## Performance (Theoretical)
 
 | Metric | Without LNA | With Lana | Improvement |
